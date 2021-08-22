@@ -12,6 +12,8 @@ target 'github_react_native' do
     :hermes_enabled => false
   )
 
+  pod 'react-native-safe-area-context', :path => '../node_modules/react-native-safe-area-context'
+
   target 'github_react_nativeTests' do
     inherit! :complete
     # Pods for testing

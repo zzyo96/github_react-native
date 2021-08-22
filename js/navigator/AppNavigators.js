@@ -13,7 +13,7 @@ const InitNavigator = createStackNavigator({
 });
 
 const MainNavigator = createStackNavigator({
-  WelcomePage: {
+  HomePage: {
     screen: HomePage,
     navigationOptions: {
       header: null,
